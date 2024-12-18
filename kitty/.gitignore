@@ -1,0 +1,10 @@
+/*
+
+!.gitignore
+!/starship.toml
+!/.zshrc
+!/README.md
+
+!/hypr
+!/kitty
+

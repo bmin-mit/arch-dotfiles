@@ -1,0 +1,13 @@
+/*
+
+!/.gitignore
+!/README.md
+!/starship.toml
+!/.zshrc
+
+!scripts/
+!/install.sh
+
+!/hypr
+!/kitty
+
