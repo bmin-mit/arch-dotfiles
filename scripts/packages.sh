@@ -5,27 +5,17 @@ install bluez \
     	blueman
 
 # DE
-install hyprland \
-	hyprpaper \
-	hyprshade \
-	brightnessctl \
-    	playerctl \
-	hyprpolkitagent \
-	wireplumber \
-	rofi \
-	waybar \
-	libinput libinput-gestures
-
+. ./scripts/hyprland.sh
 
 # Fonts
 install ttf-jetbrains-mono-nerd \
-	ttf-firacode-nerd \
-	ttf-ms-win11-auto
+		ttf-firacode-nerd \
+		ttf-ms-win11-auto
 
 # Apps
 if confirm "Install default apps? (ex: browser)"; then
     install microsoft-edge-stable \
-	    spotify \
+	    	spotify \
     	    visual-studio-code-bin
 fi
 
@@ -39,6 +29,4 @@ install gnome-system-monitor \
 	nautilus
 
 # Shell
-install eza \
-	zsh \
-	nitch-git
+. ./scripts/zsh.sh

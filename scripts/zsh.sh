@@ -36,3 +36,7 @@ git clone https://github.com/z-shell/zsh-eza $ZSH_PLUG/zsh-eza
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_PLUG/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_PLUG/zsh-syntax-highlighting
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_PLUG/zsh-vi-mode
+
+# Install themes
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10
+
